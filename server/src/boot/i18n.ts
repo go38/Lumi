@@ -30,6 +30,7 @@ export const supportedLocales = [
     { code: 'sl', name: 'slovenski jezik' },
     { code: 'sv', name: 'Svenska' },
     { code: 'tr', name: 'Türkçe' },
+   	{ code: 'zh-TW', name: '中文, 繁體中文' },
     { code: 'zh', name: '中文 (Zhōngwén), 汉语, 漢語' },
     { code: 'ja', name: '日本語 (にほんご)' }
 ];
