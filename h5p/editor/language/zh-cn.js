@@ -161,7 +161,7 @@ H5PEditor.language.core = {
   tryAgain: '再试一次',
   getHelp: '获取帮助',
   untitled: '无标题 :libraryTitle',
-  title: '标题',
+  title: 'X标题X',
   metadata: '元数据',
   addTitle: '添加标题',
   usedForSearchingReportsAndCopyrightInformation: '用于搜索，报告和版权信息',

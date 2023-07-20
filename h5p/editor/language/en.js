@@ -89,7 +89,7 @@ H5PEditor.language.core = {
   h5pFileUploadServerErrorTitle: 'The H5P file could not be uploaded',
   h5pFileUploadServerErrorContent: 'An unexpected error occured. Check your server error log for' +
   ' more details.',
-  contentTypeSectionAll: 'All Content Types',
+  contentTypeSectionAll: '所有內容類型(All Content Types)',
   searchResults: 'Search Results',
   contentTypeSearchFieldPlaceholder: 'Search for Content Types',
   contentTypeInstallButtonLabel: 'Install',
