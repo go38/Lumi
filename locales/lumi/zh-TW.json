@@ -1,0 +1,378 @@
+{
+    "analytics": {
+        "average": "平均",
+        "brokenFiles": "損壞的檔案列表",
+        "errors": {
+            "determine-name": "無法確定學生的姓名。",
+            "invalid-interactions": "一些交互已損壞。",
+            "invalid-statements": "一些學生動作記錄已損壞。",
+            "json-parse-error": ".lumi檔包含無效的內容（JSON未解析）。",
+            "no-content-json": "H5P內容未正確新增到.lumi檔案。"
+        },
+        "name": "姓名",
+        "searchPlaceholder": "按學生姓名搜索...",
+        "startPage": {
+            "learn_more": "更多內容",
+            "open": "選擇包含.lumi檔案的資料夾",
+            "start": "開始",
+            "title": "Lumi分析",
+            "welcomeMessage": "Lumi的分析工具可讓您導入使用者的資料並為您生成視覺化報告"
+        }
+    },
+    "auth": {
+        "cancel": "取消",
+        "code": "驗證碼",
+        "email": "電子郵件",
+        "error": {
+            "no-valid-email": "{{email}}不是有效的電子郵寄地址。",
+            "econnrefused": "無法聯繫 Lumi 身份驗證伺服器。請檢查您的網路連接。"
+        },
+        "notification": {
+            "pending": "驗證碼已發送至{{email}} 。請檢查您的電子郵件。",
+            "success": "{{email}}已成功驗證",
+            "logout": {
+                "success": "您已登出。"
+            }
+        },
+        "set_email": "設定電子郵件",
+        "verify_code": "輸入驗證碼",
+        "verify_email": "驗證郵件",
+        "logout": "登出"
+    },
+    "bug_report": {
+        "consent": "允許該應用程式發送錯誤和故障報告。",
+        "description": "發送匿名故障和錯誤報告，説明我們改善軟體和服務。",
+        "title": "錯誤和故障報告",
+        "email": {
+            "subject": "Lumi問題報告",
+            "body": "要快速解決您的問題，請寫下：\n\n  - Lumi 版本：<此處填寫>，作業系統：<此處填寫>\n  - 描述問題\n  - 描述我們如何在我們的機器上重現問題\n  - 如果問題與檔案有關，請向我們發送示例 .h5p 或匯出的檔\n\n如果您使用英語或德語以外的語言向我們發送消息，我們將使用自動翻譯工具來翻譯您的消息。"
+        }
+    },
+    "dialog": {
+        "close": "關閉"
+    },
+    "editor": {
+        "default_name": "標題",
+        "exportDialog": {
+            "cancelButton": "取消",
+            "defaults": {
+                "authorName": "H5P作者",
+                "title": "H5P內容",
+                "filename": "我的 H5P 匯出"
+            },
+            "exportButton": "現在匯出",
+            "filePicker": {
+                "buttonLabel": "匯出",
+                "formatNames": {
+                    "bundle": "多合一的 HTML 檔案",
+                    "external": "HTML檔案",
+                    "scorm": "SCORM檔案"
+                },
+                "title": "匯出為..."
+            },
+            "format": {
+                "bundleHint": "如果您的匯出檔中包含很多媒體檔，該檔對於某些電腦來說可能會太大。",
+                "bundleLabel": "多合一HTML檔案",
+                "externalHint": "在下一步中，將要求您輸入HTML檔的名稱。媒體檔將被放入與檔案名相同的資料夾中。",
+                "externalLabel": "一個HTML和幾個媒體檔案",
+                "scorm": {
+                    "label": "SCORM包裹檔案",
+                    "masteryScoreLabel": "掌握分數"
+                },
+                "title": "格式"
+            },
+            "reporter": {
+                "hint": "如果您新增了報告功能，則學生可以將其進度儲存為檔案並發送給您。",
+                "learnMoreLink": "點按此處瞭解詳情。",
+                "switchLabel": "包括報告功能"
+            },
+            "title": "匯出設置",
+            "validationErrors": {
+                "errorNaN": "輸入的值不是數字",
+                "errorRangeMin": "該值必須大於{{min}}",
+                "errorRangeMax": "該值必須小於{{max}}",
+                "errorRange": "該值必須介於{{min}}和{{max}}"
+            },
+            "addFunctionality": {
+                "title": "新增功能",
+                "rights": "顯示許可權",
+                "embed": "顯示嵌入連結"
+            },
+            "displayOptions": {
+                "marginX": "左右邊距",
+                "marginY": "上下邊距",
+                "restrictWidthAndAlign": "限制寬度並居中對齊",
+                "maximumWidth": "最大寬度",
+                "addCss": "新增 CSS 檔案",
+                "chooseCssFile": "選擇",
+                "title": "顯示選項"
+            },
+            "pixelsAbbreviation": "像素",
+            "cssFilePicker": {
+                "formatName": "CSS檔案"
+            }
+        },
+        "sidebar": {
+            "create": "新的H5P",
+            "noOpenFiles": "沒有開啟的檔案",
+            "open": "開啟H5P"
+        },
+        "startPage": {
+            "create": "建立新的H5P",
+            "open": "開啟現有的H5P",
+            "start": "開始",
+            "title": "H5P編輯器",
+            "welcomeMessage": "Lumi的H5P編輯器是一個獨立的應用程式，可讓您檢視、建立、和編輯 H5P。"
+        },
+        "tab": {
+            "edit": "編輯",
+            "view": "預覽"
+        },
+        "saveAsDialog": {
+            "title": "另存為",
+            "fallbackFilename": "我的 H5P 檔案"
+        },
+        "extensionName": "H5P套件"
+    },
+    "general": {
+        "delete": "刪除",
+        "copyClipboard": "將{{value}}複製到剪貼板"
+    },
+    "language": {
+        "description": "更改應用程式的語言。",
+        "help_translate": "幫助我們翻譯！",
+        "title": "語言"
+    },
+    "menu": {
+        "file": {
+            "copy": "複製",
+            "cut": "剪下",
+            "edit": "編輯",
+            "export": "匯出",
+            "label": "檔案",
+            "open": "開啟",
+            "paste": "貼上",
+            "redo": "重做",
+            "save": "儲存",
+            "save_as": "另存為...",
+            "select_all": "全選",
+            "undo": "還原"
+        },
+        "h5peditor": {
+            "new": "新建H5P",
+            "open": "開啟H5P"
+        },
+        "help": {
+            "about": "關於",
+            "follow_us_on_twitter": "在推特上關注我們",
+            "label": "幫助",
+            "report_issue": "報告問題",
+            "toggle_developer_tools": "切換開發人員工具"
+        },
+        "mac": {
+            "hide": "隱藏Lumi",
+            "hideothers": "隱藏其他",
+            "services": "服務",
+            "unhide": "顯示所有"
+        },
+        "quit": "退出",
+        "view": {
+            "label": "看法",
+            "resetZoom": "真實大小",
+            "togglefullscreen": "切換全屏",
+            "zoomIn": "放大",
+            "zoomOut": "縮小"
+        },
+        "window": {
+            "close": "關閉",
+            "front": "前面",
+            "label": "視窗",
+            "minimize": "最小化",
+            "show": "顯示",
+            "zoom": "縮放"
+        },
+        "run": {
+            "label": "RUN",
+            "upload": "上傳到 Lumi Run"
+        }
+    },
+    "notifications": {
+        "analytics": {
+            "import": {
+                "brokenFiles": "找到{{count}}個損壞的檔案",
+                "brokenFiles_plural": "找到了{{count}}個損壞的檔案",
+                "error": "找不到有效的檔",
+                "success": "匯入的報告檔案"
+            }
+        },
+        "h5peditor": {
+            "export_as_html": {
+                "error": "無法匯出H5P",
+                "success": "H5P成功匯出"
+            },
+            "open": {
+                "error": "無法開啟H5P。"
+            },
+            "save": {
+                "error": "無法儲存H5P。",
+                "success": "H5P 已儲存！"
+            }
+        },
+        "general": {
+            "econnrefused": "您的網路連接似乎有問題。"
+        },
+        "updater": {
+            "availableText": "更新可用。該應用程式將安裝更新並重新開機。",
+            "availableTitle": "安裝更新",
+            "updateDownloaded": "更新已下載，將在您退出 Lumi 後安裝。"
+        }
+    },
+    "privacy_policy": {
+        "consent": "我已閱讀並同意隱私政策。",
+        "title": "隱私政策"
+    },
+    "settings": {
+        "account": {
+            "email": {
+                "change": "更改電子郵件",
+                "not-set": "未設置電子郵件",
+                "title": "電子郵件"
+            },
+            "label": "帳戶"
+        },
+        "appbar": {
+            "label": "設定",
+            "save": "儲存"
+        },
+        "enable": "使用",
+        "general": {
+            "header": "一般"
+        },
+        "h5p-library-administration": {
+            "can-not-be-deleted": "該元件無法刪除，因為它已在{{count}}個其他元件中使用",
+            "can-not-be-deleted_plural": "無法刪除該元件，因為它已在{{count}}個其他元件中使用",
+            "details": "詳情",
+            "header": "已安裝的H5P元件",
+            "library-details": {
+                "addon": "附加項",
+                "author": "作者",
+                "dependentsCount": "使用該元件的元件數量",
+                "description": "描述",
+                "embedTypes": "允許的嵌入類型",
+                "fullscreen": "支持全屏",
+                "header": "元件詳情",
+                "instancesAsDependencyCount": "該元件被另一個元件使用的物件",
+                "instancesCount": "使用此元件作為主要內容類別型建立的對象",
+                "license": "許可",
+                "restricted": "受限的（僅具有許可權用戶使用）",
+                "standalone": "獨立內容類別型"
+            },
+            "notifications": {
+                "delete": {
+                    "error": "刪除元件{{title}} （ {{version}} ）時出錯。",
+                    "success": "成功刪除元件{{title}} （ {{version}} ）。"
+                },
+                "get": {
+                    "error": "獲取 {{library.title}} （ {{version}} ）的詳細資訊時出錯。"
+                },
+                "upload": {
+                    "error": "上傳時發生錯誤。",
+                    "success-no-update": "上傳成功，但未安裝或更新任何元件。內容類別型可能已經安裝在系統上。",
+                    "success-with-update": "已成功安裝{{installed}}並更新了{{updated}}元件。"
+                }
+            },
+            "upload_and_install": "上傳並安裝元件"
+        },
+        "menu": {
+            "account": "帳戶",
+            "general": "一般",
+            "h5p-library-administration": "H5P元件",
+            "updates": "更新"
+        },
+        "updates": {
+            "header": "更新"
+        },
+        "links": {
+            "header": "連結"
+        }
+    },
+    "setup_dialog": {
+        "consent_warning": "您需要同意隱私政策才能使用此應用程式。",
+        "description": "保護個人的隱私對我們很重要。我們僅收集您選擇提供給我們的資訊，並且在您的同意下對其進行處理。我們希望盡可能透明。請瞭解，Lumi需要某些網路連接和資料傳輸才能正常工作。",
+        "accept_all": "全都接受",
+        "accept_selected": "接受選擇"
+    },
+    "updates": {
+        "consent": "允許該應用程式自動檢查更新。",
+        "description": "自動獲取最新版本。",
+        "title": "自動更新",
+        "checkForUpdate": {
+            "title": "檢查更新",
+            "description": "檢查更新",
+            "checkButton": "查看"
+        },
+        "restartAndInstall": "安裝並重啟",
+        "badge": "可用更新"
+    },
+    "usage_statistics": {
+        "consent": "允許該應用程式發送匿名使用情況統計資訊。",
+        "description": " 通過發送匿名使用情況統計資訊來説明我們改善軟體和服務。",
+        "title": "使用情況統計"
+    },
+    "errors": {
+        "codes": {
+            "econnrefused": "連接被拒絕"
+        },
+        "messages": {
+            "econnrefused": "連接被拒絕"
+        }
+    },
+    "prerelease": {
+        "title": "預覽功能",
+        "description": "在發佈之前啟用實驗性功能"
+    },
+    "run": {
+        "description": "Lumi Run 允許您一鍵上傳和託管您的 H5P。",
+        "legal": "為了使用此服務，您必須同意服務條款、隱私政策並向我們提供聯繫電子郵件。",
+        "tos": {
+            "header": "服務條款",
+            "description": "我已閱讀並同意服務條款。"
+        },
+        "link": {
+            "header": "關聯"
+        },
+        "upload": "上傳",
+        "list": {
+            "header": "上傳H5P",
+            "noUploadedH5P": "沒有上傳H5P",
+            "deleteDialog": {
+                "title": "刪除運行{{runId}}",
+                "description": "你真的要刪除 run {{runId}}",
+                "cancel": "取消",
+                "confirm": "確認"
+            }
+        },
+        "uploadDialog": {
+            "success": "您的 H5P 已上傳到 Lumi.run。您可以通過以下連結訪問和共用它。",
+            "uploading": "上傳",
+            "processing": "加工",
+            "goToRun": "去跑步",
+            "ok": "行"
+        },
+        "setupDialog": {
+            "close": "關",
+            "start": "開始"
+        },
+        "notifications": {
+            "delete": {
+                "success": "已成功從 Lumi.run 中{{id}}"
+            },
+            "upload": {
+                "success": "成功上傳H5P到Lumi.run"
+            }
+        }
+    },
+    "cloudhub": {
+        "description": "搜索內容或發佈您的內容。"
+    }
+}
