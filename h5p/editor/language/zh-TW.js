@@ -164,7 +164,7 @@ H5PEditor.language.core = {
   title: '標題',
   metadata: 'Metadata',
   addTitle: 'Add title',
-  usedForSearchingReportsAndCopyrightInformation: '用於搜尋U, 報告和版權資訊',
+  usedForSearchingReportsAndCopyrightInformation: '用於搜尋, 報告和版權資訊',
   metadataSharingAndLicensingInfo: 'Metadata (sharing and licensing info)',
   fillInTheFieldsBelow : 'Fill in the fields below',
   saveMetadata: 'Save metadata',

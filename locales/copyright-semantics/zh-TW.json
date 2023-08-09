@@ -1,14 +1,14 @@
 {
-    "copyright-information": "Copyright information",
+    "copyright-information": "版權資訊",
     "title": "標題",
     "title-placeholder": "La Gioconda",
-    "author": "Author",
+    "author": "作者",
     "author-placeholder": "Leonardo da Vinci",
     "years": "Year(s)",
     "years-placeholder": "1503 - 1517",
-    "source": "Source",
+    "source": "來源",
     "source-placeholder": "http://en.wikipedia.org/wiki/Mona_Lisa",
-    "license": "License",
+    "license": "授權",
     "undisclosed": "Undisclosed",
     "attribution": "Attribution",
     "40-international": "4.0 International",
@@ -29,6 +29,6 @@
     "pd-no-version": "-",
     "CC0-1-0-universal": "CC0 1.0 Universal",
     "public-domain-mark": "Public Domain Mark",
-    "copyright": "Copyright",
-    "license-version": "License Version"
+    "copyright": "版權",
+    "license-version": "授權版本"
 }

@@ -1,0 +1,65 @@
+{
+    "H5P_Image": {
+        "title": "圖片"
+    },
+    "H5P_ContinuousText": {
+        "title": "連續文字"
+    },
+    "H5P_FreeTextQuestion": {
+        "title": "自由文字問題"
+    },
+    "H5P_GoToScene": {
+        "title": "轉到場景"
+    },
+    "H5P_GoToQuestion": {
+        "title": "十字路口"
+    },
+    "H5P_GoalsPage": {
+        "title": "目標頁面"
+    },
+    "H5P_GoalsAssessmentPage": {
+        "title": "目標評估頁面"
+    },
+    "H5P_StandardPage": {
+        "title": "標準頁面"
+    },
+    "H5P_DocumentExportPage": {
+        "title": "文件匯出頁面"
+    },
+    "H5P_Link": {
+        "title": "連結"
+    },
+    "H5P_Nil": {
+        "title": "標籤"
+    },
+    "H5P_IVHotspot": {
+        "title": "導覽熱點"
+    },
+    "H5P_OpenEndedQuestion": {
+        "title": "開放式問題"
+    },
+    "H5P_Shape": {
+        "title": "形狀"
+    },
+    "H5P_Summary": {
+        "title": "摘要"
+    },
+    "H5P_Table": {
+        "title": "表格"
+    },
+    "H5P_Text": {
+        "title": "文字"
+    },
+    "H5P_Video": {
+        "title": "影片"
+    },
+    "H5P_AdvancedText": {
+        "title": "文字"
+    },
+    "H5P_SimpleMultiChoice": {
+        "title": "簡單多選題"
+    },
+    "H5P_BranchingQuestion": {
+        "title": "分支問題"
+    }
+}
