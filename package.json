@@ -12,6 +12,7 @@
         "@sentry/electron": "3.0.8",
         "@sentry/node": "7.51.2",
         "body-parser": "1.20.2",
+        "commitlint": "^17.6.7",
         "debug": "4.3.4",
         "electron": "20.3.12",
         "electron-builder": "24.4.0",
@@ -73,8 +74,6 @@
         "access": "restricted"
     },
     "devDependencies": {
-        "@commitlint/cli": "^17.6.3",
-        "@commitlint/config-conventional": "^17.6.3",
         "@semantic-release/git": "10.0.1",
         "@types/express": "4.17.17",
         "@types/jest": "28.1.0",

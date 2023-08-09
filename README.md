@@ -18,6 +18,25 @@ Linux.
 
 ## 中文說明
 
+以下執行的命令(在 Windows OS 一定要用 Git Bash)
+cd Lumi
+npm install
+
+cd Lumi/client
+npm install
+
+cd Lumi/electron
+npm install
+
+cd Lumi/reporter-client
+npm install
+
+cd Lumi
+npm run build
+npm start
+
+
+
 ## Contributing
 
 Lumi tries to improve education wherever it is possible by providing a software
