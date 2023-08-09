@@ -16,6 +16,8 @@ It’s built with TypeScript – a [nodejs](https://nodejs.org/) plus
 [Electron](https://electronjs.org)-Standalone App on Mac OS X, Windows and
 Linux.
 
+## 中文說明
+
 ## Contributing
 
 Lumi tries to improve education wherever it is possible by providing a software
