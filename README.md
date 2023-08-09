@@ -19,6 +19,7 @@ Linux.
 ## 中文說明
 
 以下執行的命令(在 Windows OS 一定要用 Git Bash)
+
 cd Lumi
 npm install
 

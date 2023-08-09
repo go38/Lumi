@@ -1,21 +1,21 @@
 {
     "H5P_Accordion": {
-        "title": "手风琴(Accordion)",
-        "summary": "创建垂直堆叠的可扩展项目",
-        "description": "通过使用这种响应式手风琴，减少了向读者呈现的文本量。读者可以通过扩展标题来决定要仔细看的标题。非常适合提供概述和可选的深入说明。",
+        "title": "Accordion(折疊式標題)",
+        "summary": "創建垂直堆疊的可展開項目",
+        "description": "使用此響應式手風琴可減少向讀者呈現的文本量。讀者通過展開標題來決定哪些標題需要更仔細地查看。非常適合提供概述和可選深入解釋。",
         "keywords": {
-            "accordion": "手风琴",
-            "collapsible_text": "可折叠文字"
+            "accordion": "手風琴",
+            "collapsible_text": "可折疊的文本"
         }
     },
     "H5P_ArithmeticQuiz": {
-        "title": "算术测验(Arithmetic Quiz)",
-        "summary": "创建基于时间的算术测验",
-        "description": "创建由多项选择题组成的算术测验。作为作者，您要做的就是确定测验的类型和长度。用户跟踪分数和解决测验所花费的时间。",
+        "title": "Arithmetic Quiz(算術測驗)",
+        "summary": "創建計時的算術測驗",
+        "description": "創建包含多個選擇題的算術測驗。身為作者，您只需決定測驗的類型和長度。當使用者在解題測驗時，會追踪紀錄得分和花費的時間。",
         "keywords": {
-            "math": "数学",
-            "arithmetic_quiz": "算术测验",
-            "countdown": "倒数"
+            "math": "數學",
+            "arithmetic_quiz": "算術測驗",
+            "countdown": "倒數計時"
         }
     },
     "H5P_Chart": {
@@ -49,13 +49,13 @@
         }
     },
     "H5P_CoursePresentation": {
-        "title": "课程介绍(Course Presentation)",
-        "summary": "使用交互式幻灯片创建演示文稿",
-        "description": "课程介绍包括带有多媒体，文本和多种不同类型的交互的幻灯片，例如交互式摘要，多项选择题和交互式视频。学习者可以体验新的交互式学习材料，并在“课程演示”中测试他们的知识和记忆力。与H5P一样，内容可以在Web浏览器中编辑，并且“课程演示”活动类型包括基于WYSIWYG拖放的创作工具。课程演示活动的典型用法是使用几张幻灯片介绍一个主题，并在其后跟随几张幻灯片，在其中测试用户的知识。但是，课程演示可以以多种不同的方式使用，包括用作教室中的演示工具，也可以用作游戏，其中通常的导航由幻灯片顶部的导航按钮代替，以使用户做出选择并查看结果他们的选择。",
+        "title": "Course Presentation(課程簡報)",
+        "summary": "創建具有互動幻燈片的簡報",
+        "description": "課程簡報由多媒體、文本和許多不同類型的互動（如互動摘要、多選題和互動視頻）幻燈片組成。 學習者可以體驗新的互動學習材料，並在課程簡報中測試他們的知識和記憶。與H5P一樣，內容可以在Web瀏覽器中進行編輯，課程簡報活動類型包括一種所見即所得的拖放式編輯工具。課程簡報活動的典型用途是使用幾個幻燈片介紹一個主題，然後跟隨這些幻燈片使用幾個幻燈片測試用戶的知識。然而，課程簡報可以用於許多不同的方式，包括作為課堂上使用的簡報工具，或作為遊戲，其中平常的導覽被替換為幻燈片上的導覽按鈕，讓使用者進行選擇並查看他們的選擇結果。",
         "keywords": {
-            "course_presentation": "课程介绍",
-            "slides": "滑梯",
-            "powerpoint": "微软幻灯片软件"
+            "course_presentation": "課程簡報",
+            "slides": "幻燈片",
+            "powerpoint": "powerpoint"
         }
     },
     "H5P_Dialogcards": {
@@ -130,7 +130,7 @@
         }
     },
     "H5P_InteractiveVideo": {
-        "title": "互動影片(Interactive Video)",
+        "title": "Interactive Video(互動影片)",
         "summary": "製作互動功能豐富的影片內容",
         "description": "使用 說明、圖片、表格、填空題和多選題等互動功能，為您的影片增加互動性。測驗問題支援適性化，這意味著您可以根據使用者的輸入跳轉到影片的另一部分。您可以在影片結束時添加互動式摘要。互動影片需要使用H5P製作工具在標準網頁瀏覽器中建立和編輯的。",
         "keywords": {
@@ -278,13 +278,13 @@
         }
     },
     "H5P_Agamotto": {
-        "title": "Agamotto (图片混合) (Agamotto (Image Blender))",
-        "summary": "呈现一系列图像和说明",
-        "description": "呈现一系列人们应该一个接一个看的图像，例如随时间变化的项目的照片，组织在不同图层中的示意图或地图或揭示越来越多细节的图像。",
+        "title": "Agamotto Image Blender(圖像混合器)",
+        "summary": "呈現一系列的圖像和解釋",
+        "description": "呈現一系列的圖像供人們依序觀看，例如項目隨時間變化的照片、以不同層次組織的示意圖或地圖，或是逐漸揭示更多細節的圖像。",
         "keywords": {
-            "image": "图像",
-            "images": "图片",
-            "transition": "过渡"
+            "image": "圖像",
+            "images": "圖像",
+            "transition": "轉換"
         }
     },
     "H5P_ImageSequencing": {
