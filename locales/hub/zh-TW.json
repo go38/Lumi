@@ -143,193 +143,49 @@
     "H5P_DragText": {
         "title": "Drag the Words(拖曳詞語)",
         "summary": "建立基於文字的拖曳任務",
-        "description": "拖曳字詞允許內容設計者創建帶有缺漏文本的文字表達式。最終用戶將缺漏的文本拖到正確的位置，形成完整的表達式。可以用來檢查用戶是否記得她所閱讀的文本，或者是否理解了某些內容。幫助用戶通過一段文本進行思考。創建拖曳字詞任務非常簡單。編輯器只需編寫文本，並用星號符號（如*可拖動詞語*）將可拖動的詞語括起來。",
+        "description": "拖曳詞語允許內容設計者創建帶有缺漏文字的文字表達式。最終使用者將缺漏的詞語拖到正確的位置，形成完整的表達式。可以用來檢查使用者是否記得所閱讀的文本，或者是否理解了某些內容。幫助他通過一段文本進行思考。創建拖曳詞語的任務非常簡單。編輯器只需編寫文本，並用星號符號（如*可拖動詞語*）將可拖動的詞語框起來。",
         "keywords": {
             "drag": "拖曳",
-            "words": "字詞"
+            "words": "詞語"
+        }
+    },
+    "H5P_Essay": {
+        "title": "Essay(作文)",
+        "summary": "創建具有即時反饋的作文",
+        "description": "在這種內容類型中，您定義了一組代表主題重要方面的關鍵詞。這些關鍵詞與學生撰寫的文本符合，並可用於立即提供反饋-如果關鍵詞缺失，建議修訂某些主題細節，如果文本包含關鍵詞，則確認學生的想法。\r\n",
+        "keywords": {
+            "Essay": "作文"
         }
     },
     "H5P_Blanks": {
-        "title": "填寫空白(Fill in the Blanks)",
-        "summary": "建立文本中缺少單詞的任務",
-        "description": "學習者在文本中填寫缺失的單詞。在填寫所有缺少的單詞後，或根據設置在每個單詞之後，向學習者顯示一個解決方案。作者輸入文本並標記要用星號替換的單詞。除了母語和第二語言學習外，“填空”還可用於測試學習者重現事實或產生數學推論的能力。",
+        "title": "Fill in the Blanks(填空題)",
+        "summary": "在文本中建立一個遺漏單詞的任務",
+        "description": "學習者填寫文字中缺少的單詞。當填寫所有缺少的單詞或根據設置填寫每個單詞後，學習者將看到解決方案。您輸入文字並標記要用星號替換的單詞。除了母語和第二語言學習外，“填空”還可用於測試學習者重現事實或產生數學推論的能力。",
         "keywords": {
-            "fill": "充滿",
-            "blanks": "空白",
-            "text": "文本"
-        }
-    },
-    "H5P_ImageHotspotQuestion": {
-        "title": "查找熱點(Find the Hotspot)",
-        "summary": "建立圖像熱點供使用者查找",
-        "description": "此內容類別型使最終使用者可以根據任務描述在圖像上的某個位置按一下，以獲取有關正確還是不正確的回饋。作者上傳圖像，並定義與圖像細節或部分相對應的各種熱點。可以將熱點定義為正確或不正確，並且在兩種情況下作者均提供適當的回饋文本。如果最終用戶按了既未定義為正確熱點又未定義熱點的某個地方，則作者還可以定義回饋。",
-        "keywords": {
-            "find": "找",
-            "hotspot": "熱點",
-            "image": "圖像"
-        }
-    },
-    "H5P_GuessTheAnswer": {
-        "title": "猜答案(Guess the Answer)",
-        "summary": "建立帶有問題和答案的圖像",
-        "description": "此內容類別型使作者可以上傳圖像並添加適當的描述。最終使用者可以猜測答案，然後按圖片下方的欄來顯示正確的答案。",
-        "keywords": {
-            "guess": "猜測",
-            "answer": "回答"
-        }
-    },
-    "H5P_IFrameEmbed": {
-        "title": "Iframe嵌入器(Iframe Embedder)",
-        "summary": "從網址或一組文件中嵌入",
-        "description": "Iframe嵌入程式使建立現有JavaScript應用程式的H5P變得容易。",
-        "keywords": {
-            "embed": "嵌入",
-            "iframe": "iframe (嵌入）"
-        }
-    },
-    "H5P_InteractiveVideo": {
-        "title": "Interactive Video(互動影片)",
-        "summary": "製作互動功能豐富的影片內容",
-        "description": "使用 說明、圖片、表格、填空題和多選題等互動功能，為您的影片增加互動性。測驗問題支援適性化，這意味著您可以根據使用者的輸入跳轉到影片的另一部分。您可以在影片結束時添加互動式摘要。互動影片需要使用H5P製作工具在標準網頁瀏覽器中建立和編輯的。",
-        "keywords": {
-            "interactive": "互動的",
-            "video": "影片"
-        }
-    },
-    "H5P_MarkTheWords": {
-        "title": "標記單詞(Mark the Words)",
-        "summary": "建立一個任務，讓使用者突出顯示單詞",
-        "description": "標記單詞使內容設計者可以使用一組定義正確的單詞來建立文本表達。最終使用者根據任務描述突出顯示單詞並獲得分數。對於編輯者而言，建立按一下單詞挑戰是非常容易的。編輯器鍵入文本，並用諸如* correctWord *之類的星號將用戶應按一下的單詞，正確的答案括起來。",
-        "keywords": {
-            "mark": "標記",
-            "words": "字"
-        }
-    },
-    "H5P_MemoryGame": {
-        "title": "Memory Game (記憶遊戲)",
-        "summary": "建立經典的圖像配對遊戲",
-        "description": "使用此簡單而精美的HTML5遊戲創建您自己的記憶遊戲並測試您網站用戶的記憶力。",
-        "keywords": {
-            "memory": "記憶",
-            "game": "遊戲",
-            "cards": "牌"
-        }
-    },
-    "H5P_MultiChoice": {
-        "title": "Multiple Choice (選擇題)",
-        "summary": "創建靈活的多項選擇題",
-        "description": "多項選擇題可能是有效的評估工具。立即向學習者提供性能回饋。 H5P多項選擇題可以對每個問題有一個或多個正確的選項。",
-        "keywords": {
-            "multiple": "多",
-            "choice": "選擇",
-            "quiz": "測驗"
-        }
-    },
-    "H5P_PersonalityQuiz": {
-        "title": "個性測驗(Personality Quiz)",
-        "summary": "創建個性測驗",
-        "description": "在這種內容類別型中，作者定義了一系列帶有替代方案的問題，其中每個替代方案都針對一個或多個個性。在測驗結束時，最終用戶將看到哪個個性最匹配。有多種方法可以使此測驗具有視覺吸引力，例如：使用圖像表示問題，替代方案和個性。",
-        "keywords": {
-            "personality": "性格",
-            "quiz": "測驗"
-        }
-    },
-    "H5P_Questionnaire": {
-        "title": "問卷(Questionnaire)",
-        "summary": "創建調查表以接收回饋",
-        "description": "通過問卷調查獲得回饋並在互動視頻和其他內容類別型中提出開放式問題。問卷通過xAPI集成使用戶的答案可用。這意味著網站所有者可以用許多不同的方式存儲答案。答案可能存儲在LRS中，網站擁有自訂存儲，或者腳本可以獲取電子郵寄地址並使用它向使用者發送電子郵件。在H5P.org上，答案存儲在Google Analytics（分析）中。",
-        "keywords": {
-            "questionnaire": "問卷調查"
-        }
-    },
-    "H5P_QuestionSet": {
-        "title": "測驗(Question Set) (Quiz (Question Set))",
-        "summary": "創建各種問題類型的序列",
-        "description": "問題集是您典型的測驗內容類別型。它允許學習者解決一系列不同類型的問題，例如多選題，拖放和在問題集中填空。作為作者，您可以使用許多設置來使其表現出所需的效果。例如，您可以使用背景圖像自訂問題集，並為學習者定義及格百分比。問題集還允許您添加最後播放的視頻。一個視頻獲得成功，如果學習者未通過測試，則獲得另一個視頻。這可能會激勵學習者在失敗時重試，以便他們觀看成功的視頻。",
-        "keywords": {
-            "question_set": "問題集",
-            "collection": "收藏",
-            "quiz": "測驗"
-        }
-    },
-    "H5P_SingleChoiceSet": {
-        "title": "單選集(Single Choice Set)",
-        "summary": "用正確答案創建問題",
-        "description": "單一選擇集允許內容設計人員創建每個問題有一個正確答案的問題集。提交每個答案後，最終用戶將立即獲得回饋。",
-        "keywords": {
-            "collection": "收藏",
-            "quiz": "測驗",
-            "choice": "選擇"
-        }
-    },
-    "H5P_Summary": {
-        "title": "Summary (摘要)",
-        "summary": "使用語句列表創建任務",
-        "description": "總結可通過積極匯總有關當前主題的摘要，説明學習者記住文本，視頻或演示文稿中的關鍵資訊。學習者完成摘要後，將顯示有關該主題的關鍵陳述的完整列表。",
-        "keywords": {
-            "summary": "概括"
-        }
-    },
-    "H5P_Timeline": {
-        "title": "Timeline (時間軸)",
-        "summary": "用多媒體創建事件時間表",
-        "description": "這是Knight Lab開發的Timeline.js，打包為H5P內容類別型，以使時間線易於編輯，共用和重用。時間軸內容類別型使您可以按時間順序放置事件序列。對於每個事件，您都可以添加圖像和文本。您可能還包括來自Twitter，YouTube，Flickr，Vimeo，Google Maps和SoundCloud的資產。",
-        "keywords": {
-            "timeline": "時間軸",
-            "slider": "滑杆"
-        }
-    },
-    "H5P_TrueFalse": {
-        "title": "正確/錯誤問題(True/False Question)",
-        "summary": "創建對/錯問題",
-        "description": "正確/錯誤問題是一種簡單直接的內容類別型，可以單獨使用，也可以插入其他內容類別型（如“課程演示”）中。可以通過添加圖像或視頻來創建更複雜的問題。",
-        "keywords": {
-            "true": "真的",
-            "false": "錯誤的"
-        }
-    },
-    "H5P_ImageHotspots": {
-        "title": "圖像熱點(Image Hotspots)",
-        "summary": "創建具有多個資訊熱點的圖像",
-        "description": "圖像熱點使創建具有互動式熱點的圖像成為可能。當使用者按下熱點時，將顯示一個包含標題和文本或視頻的快顯視窗。使用H5P編輯器，您可以根據需要添加任意多個熱點。",
-        "keywords": {
-            "image": "圖像",
-            "hotspot": "熱點"
+            "fill": "填",
+            "blanks": "空格",
+            "text": "文字"
         }
     },
     "H5P_ImageMultipleHotspotQuestion": {
-        "title": "查找多個熱點(Find Multiple Hotspots)",
-        "summary": "創建多個熱點供用戶查找",
-        "description": "一種免費的基於HTML5的問題類型，可讓廣告素材創建基於圖像的測試，供學習者在圖像上找到正確的位置。將此內容類別型與適用於WordPress，Moodle或Drupal的H5P外掛程式一起使用，以挑戰您的用戶。"
+        "title": "Find Multiple Hotspots(尋找多個熱點)",
+        "summary": "設置多個熱點供使用者尋找",
+        "description": "一種免費的基於HTML5的問題類型，允許創意人員建立基於圖像的測試，學習者需要尋找圖像上的正確位置。使用WordPress，Moodle或Drupal的H5P套件與此內容類型一起使用，挑戰您的用戶。"
     },
-    "H5P_ImageJuxtaposition": {
-        "title": "圖像並置(Image Juxtaposition)",
-        "summary": "創建互動式圖像",
-        "description": "一種免費的基於HTML5的圖像內容類別型，允許使用者以對話模式比較兩個圖像。在WordPress，Moodle或Drupal上使用H5P和圖像並置講述您的圖像故事。"
-    },
-    "H5P_SpeakTheWords": {
-        "title": "講單詞(Speak the Words)",
-        "summary": "使用語音回答問題(Chrome only)",
-        "description": "僅實現Web Speech API的流覽器（Chrome流覽器，iOS除外）才支持“說單詞”。您需要麥克風才能回答問題。向用戶提出問題，並讓他們使用自己的聲音回答。您可以選擇多個正確答案。用戶將能夠看到他的單詞被解釋為什麼，以及它與正確答案的接近程度。",
+    "H5P_ImageHotspotQuestion": {
+        "title": "Find the Hotspot(找出熱點)",
+        "summary": "設置圖像熱點供使用者尋找",
+        "description": "此內容類型允許最終用戶按圖片上的某處，並根據任務描述獲得正確或不正確的反饋。您上傳圖像並定義與圖像的詳細信息或部分對應的各種熱點。 熱點可以定義為正確或不正確，作者在兩種情況下都提供適當的反饋文本。 如果最終用戶按下未被定義為正確或不正確熱點的位置，作者還可以定義反饋。",
         "keywords": {
-            "language": "語言",
-            "translation": "翻譯",
-            "voice": "嗓音",
-            "recognition": "認出",
-            "speech": "演講",
-            "mic": "小的",
-            "microphone": "麥克風"
+            "find": "尋找",
+            "hotspot": "熱點",
+            "image": "圖片"
         }
     },
-    "H5P_ImageSequencing": {
-        "title": "圖像排序(Image Sequencing)",
-        "summary": "以正確的順序放置圖像",
-        "description": "一種免費的基於HTML5的圖像排序內容類別型，允許作者以特定順序將自己的圖像序列（和可選的圖像描述）添加到遊戲中。圖像的順序將是隨機的，玩家將必須根據任務描述對圖像進行重新排序。 ",
-        "keywords": {
-            "image": "圖像",
-            "sequence": "順序",
-            "order": "命令"
-        }
+    "H5P_FindTheWords": {
+        "title": "Find the Words(找單字)",
+        "summary": "網格單字搜尋遊戲",
+        "description": "一款基於 HTML5 的免費單字搜尋遊戲，允許您建立一個單字清單，並將其繪製成網格。學習者的任務是在網格中尋找並選擇這些單字。"
     },
     "H5P_Flashcards": {
         "title": "Flashcards(閃卡)",
@@ -340,93 +196,238 @@
             "animation": "動畫"
         }
     },
-    "H5P_SpeakTheWordsSet": {
-        "title": "說出話語集(Speak the Words Set)",
-        "summary": "創建一系列通過語音回答的問題(Chrome only)",
-        "description": "僅實現Web Speech API的流覽器（Chrome流覽器，除了ios上）才支持說出單詞集。您需要麥克風才能回答問題。創建一組問題，學習者可以使用自己的聲音回答。您可以選擇多個正確答案。用戶將能夠看到他的單詞被解釋為什麼，以及它與正確答案的接近程度。",
+    "H5P_GuessTheAnswer": {
+        "title": "Guess the Answer(猜猜答案)",
+        "summary": "一個帶有問題和答案的圖片",
+        "description": "這種內容類型允許您上傳圖像並添加適當的描述。最終用戶可以猜猜答案，然後按下圖像下方的長條來顯示正確答案。",
         "keywords": {
-            "language": "語言",
-            "translation": "翻譯",
-            "voice": "嗓音",
-            "quiz": "測驗",
-            "set": "放",
-            "recognition": "認出",
-            "mic": "小的",
-            "microphone": "麥克風"
+            "guess": "猜測",
+            "answer": "答案"
+        }
+    },
+    "H5P_IFrameEmbed": {
+        "title": "Iframe Embedder(頁框嵌入)",
+        "summary": "嵌入網址或一組檔案",
+        "description": "Iframe 頁框嵌入器使已存在的 JavaScript 應用程式易於製作 H5P。",
+        "keywords": {
+            "embed": "嵌入",
+            "iframe": "iframe"
+        }
+    },
+    "H5P_MultiMediaChoice": {
+        "title": "Image Choice(圖片選擇)",
+        "summary": "創建一個任務，其中替代方案是圖片",
+        "description": "構建美麗的多選或單選問題，其中替代方案是圖片。 您可以自定義替代方案的佈局，並選擇固定的長寬比或僅使用圖片已有的長寬比。",
+        "keywords": {
+            "sorting": "排序",
+            "games": "遊戲",
+            "tasks": "任務"
+        }
+    },
+    "H5P_ImageHotspots": {
+        "title": "Image Hotspots(圖片熱點)",
+        "summary": "創建一張帶有多個熱點的圖片",
+        "description": "圖片熱點可以創建帶有互動熱點的圖片。當使用者按下熱點時，將會顯示包含標題、文字或影片的彈出視窗。使用 H5P 編輯器，您可以添加任意多個熱點。",
+        "keywords": {
+            "image": "圖片",
+            "hotspot": "熱點"
+        }
+    },
+    "H5P_ImageJuxtaposition": {
+        "title": "Image Juxtaposition(圖片並列)",
+        "summary": "建立互動圖片",
+        "description": "一種基於HTML5的免費圖像內容類型，允許使用者交互比較兩張圖像。在WordPress、Moodle或Drupal上使用H5P和Image Juxtaposition來講述您的圖片故事。"
+    },
+    "H5P_ImagePair": {
+        "title": "Image Pairing(圖片配對)",
+        "summary": "拖放圖片配對遊戲",
+        "description": "圖片配對是一個簡單而有效的活動，需要學習者配對圖片。由於不需要一對中的兩個圖片相同，因此作者也能夠測試兩個不同圖片之間的關係的理解。",
+        "keywords": {
+            "image_images matching pair": "圖片圖像配對"
+        }
+    },
+    "H5P_ImageSequencing": {
+        "title": "Image Sequencing(圖片排序)",
+        "summary": "將圖片依序排列",
+        "description": "一種免費的基於 HTML5 的圖片排序內容類型，允許作者按照特定順序添加自己的一系列圖片 (以及可選的影像描述) 到遊戲中。圖片的順序將會被隨機排列，玩家必須根據任務描述將它們重新排序。",
+        "keywords": {
+            "image": "圖片",
+            "sequence": "排序",
+            "order": "順序"
         }
     },
     "H5P_ImageSlider": {
-        "title": "圖像滑塊(Image Slider)",
-        "summary": "輕鬆創建圖像滑塊",
-        "description": "輕鬆呈現具有吸引力的圖像。作者只需要上傳圖像並為圖像提供替代文本。\r\n\r\n接下來的兩個圖像始終是預載入的，因此在圖像之間進行切換通常會很快捷，而不會延遲載入下一個圖像。\r\n\r\n圖片可能會出現在頁面的一部分或全屏模式下。當用作頁面的一部分時，系統將根據所使用的圖像選擇固定的寬高比。作者可能會決定以不同的方式處理縱橫比。",
+        "title": "Image Slider(圖片輪播)",
+        "summary": "輕鬆安排影像以幻燈片式展現",
+        "description": "以吸引人的方式呈現您的圖片。作者只需上傳圖片並提供圖片的替代文字。\r\n\r\n下兩張圖片總是預先加載的，所以在圖片之間切換通常會很快，不會延遲載入下一張圖片。\r\n\r\n圖片可以作為頁面的一部分或全螢幕模式體驗。當作為頁面的一部分使用時，系統將選擇一個固定的長寬比，具體取決於使用的圖片。作者可以決定以不同的方式處理長寬比。",
         "keywords": {
-            "image": "圖像",
+            "image": "圖片",
             "images": "圖片",
-            "slider": "滑杆",
+            "slider": "輪播",
             "carousel": "輪播"
         }
     },
-    "H5P_Essay": {
-        "title": "隨筆(Essay)",
-        "summary": "利用即時回饋創建隨筆",
-        "description": "在這種內容類別型中，作者定義了一組代表主題關鍵方面的關鍵字。這些關鍵字與學生撰寫的文本相匹配，可用於立即提供回饋-如果缺少關鍵字，則建議修改某些主題詳細資訊，或者如果文本包含關鍵字，則確認學生的想法。\r\n",
-        "keywords": {
-            "Essay": "散文"
-        }
-    },
-    "H5P_ImagePair": {
-        "title": "圖像配對(Image Pairing)",
-        "summary": "拖放圖像匹配遊戲",
-        "description": "圖像配對是一項簡單而有效的活動，要求學習者匹配圖像對。由於不需要一對中的兩個圖像都相同，因此作者還可以測試對兩個不同圖像之間關係的理解。 ",
-        "keywords": {
-            "image_images matching pair": "圖像圖像匹配對"
-        }
-    },
-    "H5P_ThreeImage": {
-        "title": "虛擬漫遊(360) (Virtual Tour (360))",
-        "summary": "通過交互創建360個環境",
-        "description": "360度（矩形）圖像和普通圖像可能會充滿交互性，例如說明，視頻，聲音和互動式問題。圖像創建也可以連結在一起的場景，以給用戶留下在環境之間或同一環境中不同視點之間移動的印象。"
-    },
-    "H5P_FindTheWords": {
-        "title": "查找單詞(Find the words)",
-        "summary": "網格詞搜索遊戲",
-        "description": "一個免費的基於HTML5的單詞搜索活動，允許作者創建將在網格中繪製的單字清單。學習者的任務是在網格中找到並選擇單詞。"
-    },
     "H5P_InteractiveBook": {
-        "title": "互動書(Interactive Book)",
-        "summary": "創建小課程，書籍和測試",
-        "description": "創建小課程，書籍或測試。互動式書允許作者在多個頁面上組合大量互動式內容，例如互動式視頻，問題，課程演示等等。最後有一個總結，總結了學習者在整本書中獲得的分數。",
+        "title": "Interactive Book(互動書籍)",
+        "summary": "可用來建置小型課程、書籍和測驗",
+        "description": "創建小型課程、書籍或測試。Interactive Book 允許作者在多個頁面上結合大量的互動內容，如互動視頻、問題、課程簡報等。書籍結束時有一個摘要，總結了學習者在整本書中獲得的分數。",
         "keywords": {
-            "book": "書",
+            "book": "書籍",
             "course": "課程"
+        }
+    },    
+    "H5P_InteractiveVideo": {
+        "title": "Interactive Video(互動影片)",
+        "summary": "製作互動功能豐富的影片內容",
+        "description": "使用 說明、圖片、表格、填空題和多選題等互動功能，為您的影片增加互動性。測驗問題支援適性化，這意味著您可以根據使用者的輸入跳轉到影片的另一部分。您可以在影片結束時添加互動式摘要。互動影片需要使用H5P製作工具在標準網頁瀏覽器中建立和編輯的。",
+        "keywords": {
+            "interactive": "互動的",
+            "video": "影片"
         }
     },
     "H5P_KewArCode": {
-        "title": "KewAr代碼(KewAr Code)",
-        "summary": "創建用於不同目的的QR碼",
-        "description": "KewAr代碼使內容設計人員可以創建知名的QR代碼。這些QR碼可以對URL進行編碼，但是也可以對聯繫資訊，事件，地理位置等進行編碼。人們可以使用QR碼閱讀器對其進行掃描，以觸發所選的操作。",
+        "title": "KewAr Code(二維碼)",
+        "summary": "建立不同用途的二維條碼",
+        "description": "KewAr Code 讓內容設計師創建眾所周知的 QR Code二維條碼。這些二維碼可以編碼 URL，還可以是聯絡資訊、事件、地理位置等等。人們可以使用二維碼閱讀器掃描它們，以觸發所選的操作。",
         "keywords": {
             "QR": "二維碼"
         }
     },
+    "H5P_MarkTheWords": {
+        "title": "Mark the Words(標記單字)",
+        "summary": "建立任務讓使用者標記突顯出單字",
+        "description": "標記單字允許內容設計人員創建帶有一組定義正確單字的文字表達式。最終使用者根據任務描述突顯出單字並獲得得分。對於編輯器來說，創建單字點擊挑戰非常簡單。編輯器輸入文字並將使用者應該點擊的單字（正確答案）用星號，如 *correctWord* 框起來。",
+        "keywords": {
+            "mark": "標記",
+            "words": "單字"
+        }
+    },
+    "H5P_MemoryGame": {
+        "title": "Memory Game(記憶遊戲)",
+        "summary": "設計經典的圖像配對遊戲",
+        "description": "使用這個簡單而美麗的 HTML5 遊戲創建自己的記憶遊戲，並測試您網站的用戶的記憶力。",
+        "keywords": {
+            "memory": "記憶",
+            "game": "遊戲",
+            "cards": "卡牌"
+        }
+    },
+    "H5P_MultiChoice": {
+        "title": "Multiple Choice(選擇題)",
+        "summary": "創建靈活的選擇題",
+        "description": "選擇題可以是一個有效的評估工具。學習者可以立即得到表現的回饋。H5P的選擇題，每個問題可以有一個或多個正確選項。",
+        "keywords": {
+            "multiple": "多個",
+            "choice": "選項",
+            "quiz": "測驗"
+        }
+    },
+    "H5P_PersonalityQuiz": {
+        "title": "Personality Quiz(人格測驗)",
+        "summary": "建立人格測驗",
+        "description": "在此內容類型中，作者定義一系列問題與替代方案，其中每個替代方案都與一個或多個人格相匹配。在測驗結束時，最終使用者將看到哪個人格最佳匹配。有幾種使此測驗具有視覺吸引力的方法，例如使用圖像來表示問題，替代方案和人格。",
+        "keywords": {
+            "personality": "人格",
+            "quiz": "測驗"
+        }
+    },
+    "H5P_Questionnaire": {
+        "title": "Questionnaire(問卷)",
+        "summary": "設計問卷以收集回饋意見",
+        "description": "透過 H5P 的問卷可以在互動式影片及其他內容類型中蒐集回饋和詢問開放式問題。問卷透過 xAPI 整合提供使用者的回答資訊。這意味著網站擁有者可以以多種方式儲存回答，例如儲存在 LRS、網站自訂的儲存方式，或是透過程式取得使用者的電子郵件地址並發送電子郵件。在 H5P.org 上，回答資訊會被儲存在 Google Analytics 中。",
+        "keywords": {
+            "questionnaire": "問卷"
+        }
+    },
+    "H5P_QuestionSet": {
+        "title": "Quiz Question Set(測驗試題集)",
+        "summary": "建立一系列包含各種問題類型的測驗",
+        "description": "問題集是您典型的測驗內容類型。它允許學習者在問題集中解決各種問題類型，例如選擇、拖放和填空。身為作者，您可以使用許多設置，使其表現出您想要的方式。例如，您可以使用背景圖像自定義問題集，並為學習者定義通過百分比。問題集還允許您添加在最後播放的影片。成功是一個影片，如果學習者未通過測試，則是另一個影片。這可能會激勵學習者再次嘗試，以便他們可以看到成功的影片。",
+        "keywords": {
+            "question_set": "問題集",
+            "collection": "蒐集",
+            "quiz": "測驗"
+        }
+    },
+    "H5P_SingleChoiceSet": {
+        "title": "Single Choice Set(單選題集)",
+        "summary": "創建一個選擇題，其中只有一個正確答案",
+        "description": "單選集允許內容設計人員設計一組問題集，每個問題只有一個正確答案。使用者在提交每個答案後即可獲得即時回饋。",
+        "keywords": {
+            "collection": "收藏",
+            "quiz": "測驗",
+            "choice": "選擇"
+        }
+    },
     "H5P_SortParagraphs": {
-        "title": "段落(Sort the Paragraphs)",
-        "summary": "創建一組要排序的段落",
-        "description": "鍵入或粘貼將隨機化的段落列表。例如，您可以讓每個段落成為歌曲、代碼塊或食譜中的步驟的一部分。學習者將段落排序為正確的順序。預設情況下，學習者將在應該跟隨的段落之後的每個段落獲得一分，但您可以決定為每個位於正確位置的段落獎勵一分。",
+        "title": "Sort the Paragraphs(段落排序)",
+        "summary": "建立一組需排序的段落",
+        "description": "輸入或貼上一組需隨機排列的段落，例如歌曲的一部分、程式碼的一段或食譜的步驟。學習者需將這些段落按照正確順序排序。預設情況下，學習者會因為每個段落跟在它應該跟隨的段落後面而獲得一分，但您也可以決定每個被放在正確位置的段落都能獲得一分。",
         "keywords": {
             "sorting": "排序",
             "games": "遊戲",
             "tasks": "任務"
         }
     },
-    "H5P_MultiMediaChoice": {
-        "title": "圖像選擇(Image Choice)",
-        "summary": "創建一個任務，其中替代品是圖像",
-        "description": "如果替代方案是圖像，則構建漂亮的多項或單選題。您可以為備選方案自訂佈局並在固定縱橫比之間進行選擇或僅使用圖像已有的縱橫比。",
+    "H5P_SpeakTheWords": {
+        "title": "Speak the Words(唸出詞語)",
+        "summary": "使用您的聲音回答問題（僅限 Chrome 瀏覽器）",
+        "description": "Speak the Words 僅支援實現 Web Speech API 的瀏覽器（僅限 Chrome 瀏覽器，iOS除外）。您需要一個麥克風來回答問題。向使用者提問，讓他們使用自己的聲音回答。您可以選擇多個正確答案。使用者將能夠看到他的話被解譯成什麼，以及它與正確答案有多接近。",
         "keywords": {
-            "sorting": "排序",
-            "games": "遊戲",
-            "tasks": "任務"
+            "language": "語言",
+            "translation": "翻譯",
+            "voice": "聲音",
+            "recognition": "識別",
+            "speech": "說話",
+            "mic": "麥克風",
+            "microphone": "麥克風"
         }
+    },
+    "H5P_SpeakTheWordsSet": {
+        "title": "Speak the Words Set(唸出詞語集)",
+        "summary": "創建一系列通過語音回答的問題（僅限 Chrome）",
+        "description": "Speak the Words Set僅受到實施Web語音API的瀏覽器支持（僅限Chrome瀏覽器，ios除外）。您需要麥克風來回答問題。創建一組學習者可以使用他們的聲音回答的問題。您可以選擇多個正確答案。使用者將能夠看到他的話被解譯成什麼，以及與正確答案有多接近。",
+        "keywords": {
+            "language": "語言",
+            "translation": "翻譯",
+            "voice": "聲音",
+            "quiz": "測驗",
+            "set": "集",
+            "recognition": "識別",
+            "mic": "麥克風",
+            "microphone": "麥克風"
+        }
+    },
+    "H5P_Summary": {
+        "title": "Summary(摘要)",
+        "summary": "使用一系列陳述句建立任務",
+        "description": "摘要可以通過主動構建有關手頭的文本、影音或簡報文稿的摘要來幫助學習者記住關鍵資訊。當學習者完成摘要時，將顯示有關主題的關鍵語句的完整列表。",
+        "keywords": {
+            "summary": "摘要"
+        }
+    },
+    "H5P_Timeline": {
+        "title": "Timeline(時間軸)",
+        "summary": "製作帶有多媒體的事件時間軸",
+        "description": "這是由 Knight Lab 開發的 Timeline.js，打包成 H5P 內容類型，以便輕鬆編輯、共享和重複使用時間軸。 Timeline 內容類型允許您按時間順序放置一系列事件。 對於每個事件，您可以添加圖片和文字。 您還可以包括來自 Twitter、YouTube、Flickr、Vimeo、Google Maps 和 SoundCloud 的素材。",
+        "keywords": {
+            "timeline": "時間軸",
+            "slider": "滑桿"
+        }
+    },
+    "H5P_TrueFalse": {
+        "title": "True/False Question(是非題)",
+        "summary": "設計是/非題目",
+        "description": "是非判斷題是一種簡單直觀的內容類型，可以單獨使用，也可以加入到其他內容類型中，例如課程簡報。通過添加圖片或影片，可以設計一個更複雜的問題。",
+        "keywords": {
+            "true": "是",
+            "false": "否"
+        }
+    },        
+    "H5P_ThreeImage": {
+        "title": "Virtual Tour 360(虛擬全景導覽)",
+        "summary": "製作帶有互動的 360度 全景環境",
+        "description": "360（等距圓柱形）和普通圖像可以和說明、影片、聲音和互動問題等互動元素一起豐富內容。 這些圖像建立的場景還可以相互鏈接，讓使用者可以感受到在不同環境或同一環境中不同觀點之間移動的印象。"
     }
+
 }
